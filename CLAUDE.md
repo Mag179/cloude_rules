@@ -15,7 +15,6 @@ AI 運用 5 原則
 </law>
 
 <code_guidelines profile="typescript-react" version="1.0">
-
   <formatting>
     <rule id="cg-001">Prettier を必須。printWidth=100, semi=true, singleQuote=true, trailingComma=all, tabWidth=2, endOfLine=lf。</rule>
     <rule id="cg-002">.editorconfig で改行コード/インデントを統一。</rule>
