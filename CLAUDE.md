@@ -15,11 +15,11 @@ AI 運用 5 原則
 </law>
 
 <code_guidelines profile="typescript-react" version="1.0">
-  <formatting>
-    <rule id="cg-001">Prettier を必須。printWidth=100, semi=true, singleQuote=true, trailingComma=all, tabWidth=2, endOfLine=lf。</rule>
-    <rule id="cg-002">.editorconfig で改行コード/インデントを統一。</rule>
-    <rule id="cg-003">1 ファイル 1 責務。200〜300 行を越える場合は分割を検討。</rule>
-  </formatting>
+<formatting>
+<rule id="cg-001">Prettier を必須。printWidth=100, semi=true, singleQuote=true, trailingComma=all, tabWidth=2, endOfLine=lf。</rule>
+<rule id="cg-002">.editorconfig で改行コード/インデントを統一。</rule>
+<rule id="cg-003">1 ファイル 1 責務。200〜300 行を越える場合は分割を検討。</rule>
+</formatting>
 
   <tdd policy="must" priority="highest" version="1.0">
     <principles>
@@ -50,13 +50,6 @@ AI 運用 5 原則
     <rule id="cg-032">設定/秘密情報は環境変数経由。型は zod 等で検証。</rule>
     <rule id="cg-033">エラーは再現可能なメッセージ＋原因（cause）を保持。</rule>
   </architecture>
-
-  <testing>
-    <rule id="cg-040">純粋関数はユニットテスト必須（Jest/Vitest）。</rule>
-    <rule id="cg-041">Reactは重要経路のみコンポーネントテスト（Testing Library）。実装詳細のモックは最小限。</rule>
-    <rule id="cg-042">E2Eは主要ユーザフローのみ（Playwright）。</rule>
-    <rule id="cg-043">データ属性 data-testid は最小限にし、可能ならロール/テキストで選択。</rule>
-  </testing>
 
   <security>
     <rule id="cg-050">秘密情報をリポジトリに置かない。dotenv + gitignore。</rule>
