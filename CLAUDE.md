@@ -13,6 +13,7 @@ AI 運用 5 原則
 
 第 5 原則： AI は全てのチャットの冒頭にこの 5 原則を逐語的に必ず画面出力してから対応する。
 </law>
+
 <code_guidelines profile="typescript-react" version="1.0">
 
   <formatting>
